@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>UnitedWeReach - EDUCATIONAL REFORMS</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+
+
+	<!--<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/modernizr.js"></script>-->
+    
+    
+    
+	<!-- Add fancyBox main JS and CSS files -->
+
+	<script src="js/jquery-1.10.1.min.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ <style>
+				.nav-tabs{
+					border-bottom: none;
+				}
+                .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+					background-color:#f0cc3d;
+					font-family: OpenSans-Semibold;
+					font-size:16px;
+					line-height:22px;
+					color:#181818;
+					border:0;
+				}
+				.nav > li > a:focus, .nav > li > a:hover{
+					background-color:#f0cc3d;
+					color:#181818;
+				}
+				.nav-tabs > li > a {
+				  border:none;
+				  border-radius:0;
+				  color:#7f7f7f;
+				  font-family: OpenSans-Semibold;
+				  font-size:16px;
+				  line-height:18px;
+				  margin-right:0;
+				  border-right: 1px solid #ccc;
+				  padding: 15px 45px;
+				  text-align: center;
+				}
+				#myTabs li{
+					background-color:#181818;
+					width: 33.33%;
+				}
+				.tab-content{
+					margin-bottom:50px;	
+					position:relative;
+				}
+				.tab-content p {
+					  padding: 25px 69px 30px;
+					}
+				.proj-slide-img p{
+					padding: 10px 0 0px;
+				}
+				.tab-content .tab-pane{
+					background:#fff;
+				}
+				.slide-list{
+					color:#fff;
+					
+					}
+				@media only screen and (min-width:320px) and (max-width:480px){
+					#myTabs li {
+						border-bottom: 2px solid #fff;
+						width: 100%;
+					}
+					.tab-content p {
+					  padding: 25px 20px 30px;
+					  text-align: justify;
+					}
+					.tab-content .tab-pane {
+						background: ##F4F4F4;
+					}
+					.proj-slide-img .txt-box-slide{
+						padding:0;
+						position: relative;
+					}
+					.txt-box-slide h2 {
+					  color: #181818;
+					  line-height: 36px;
+					}
+					.txt-box-slide p{
+						color: #181818;
+						padding: 0;
+						width: 100%;
+						 font-size: 14px;
+						 line-height: 18px;
+					}
+					.btn-slides {
+					  padding: 35px 24px;
+					}
+					.btn-under-slide {
+					  display: block;
+					  line-height: 17px;
+					  margin-bottom: 3px;
+					  padding: 10px 15px;
+					}
+				
+				}
+				@media only screen and (min-width:481px) and (max-width:767px){
+					#myTabs li {
+						border-bottom: 2px solid #fff;
+						width: 100%;
+					}
+					.tab-content p {
+					  padding: 25px 20px 30px;
+					  text-align: justify;
+					}
+					.tab-content .tab-pane {
+						background: ##F4F4F4;
+					}
+					.proj-slide-img .txt-box-slide{
+						padding:0;
+						position: relative;
+					}
+					.txt-box-slide h2 {
+					  color: #181818;
+					  line-height: 36px;
+					}
+					.txt-box-slide p{
+						color: #181818;
+						padding: 0;
+						width: 100%;
+						 font-size: 14px;
+						 line-height: 18px;
+					}
+					.btn-slides {
+					  padding: 35px 24px;
+					}
+					.btn-under-slide {
+					  display: block;
+					  line-height: 17px;
+					  margin-bottom: 3px;
+					  padding: 10px 15px;
+					}
+										/*.img-txtbox {
+  left: 6%;
+  top: 80px;
+}*/
+					}
+				@media only screen and (min-width:768px) and (max-width:991px){
+					.nav-tabs > li > a{
+						padding:15px;
+						font-size:15px;	
+							
+					}
+					.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+					font-size:15px;	
+					}
+					.tab-content p {
+					  padding: 25px 20px 30px;
+					  text-align: justify;
+					}
+					.tab-content .tab-pane {
+						background: ##F4F4F4;
+					}
+					.proj-slide-img .txt-box-slide{
+						padding:0;
+						position: relative;
+					}
+					.txt-box-slide h2 {
+					  color: #181818;
+					  line-height: 36px;
+					}
+					.txt-box-slide p{
+						color: #181818;
+						padding: 0;
+						width: 100%;
+						 font-size: 14px;
+						 line-height: 18px;
+					}
+					.btn-under-slide {
+					  padding: 10px 6px;
+					}
+				}
+                </style>
+	</head>
+	<body>
+<a name="scroll-to-top"></a>
+<div class="container-fluid">
+    <div class="header-holder header-sub">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                  <div class="logo"> <a href="index.html"> <img src="images/logo.png" alt="logo"> </a> </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12"> 
+                  <!--navbar responsive start-->
+                  
+                  <nav role="navigation" class="navbar navbar-inverse main-menu"> 
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                      <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    </div>
+                <!-- Collection of nav links and other content for toggling -->
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                      <ul class="nav navbar-nav">
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="about-us.html">About Us</a> </li>
+               <!--<li> <a href="our-projects.html" class="active">Our Projects </a> </li>-->
+                 <li class="dropdown">
+                    <a href="educational-reform.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Our Projects </a>
+                    <ul class="dropdown-menu">
+                        <li >
+                            <a href="educational-reform.html" class="active">Educational Reforms</a>
+                        </li>
+                        <li>
+                            <a href="vocational-training.html">Vocational Training</a>
+                        </li>
+                        <li>
+                            <a href="scholarships-program.html">Scholarships Program</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                        <li> <a href="news&stories.html">News & Stories</a> </li>
+                        <li> <a href="get-involved.html">Get Involved</a> </li>
+                        <li> <a href="contact-us.html">Contact us</a> </li>
+                      </ul>
+                    </div>
+                </nav>
+                  
+                  <!--navbar responsive end--> 
+                </div>
+            </div>
+            <!--slide txt section-->
+            <div class="row">
+                <div class="heading-text-subpage proj-p wow fadeInDown  text-center" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInDown;">
+                 	<h1><span class="bottom-line">Educational </span> Program</h1>
+                </div>
+            </div>
+            <!--slide txt section end-->
+        </div>
+    </div>
+
+
+    <!--body-section Start-->
+    	<div class="container">
+        	<div class="row">
+
+                <!--slider Start-->
+              
+                    <div class="project slider-title">
+                        <h2><span class="bottom-line">EDUCATIONAL REFORMS</span>  THROUGH TECHNOLOGY</h2>
+                    </div>
+               
+                
+                <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
+                	 <ul class="nav nav-tabs" id="myTabs" role="tablist">
+                     	 <li role="presentation" class="active">
+                         	<a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">WORLD-CLASS CURRICULUM</a>
+                         </li>
+                         <li role="presentation" class="">
+                         	<a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">DIGITALLY DELIVERED</a>
+                         </li>
+                         <li role="presentation" class="">
+                         	<a href="#about" role="tab" id="about-tab" data-toggle="tab" aria-controls="about" aria-expanded="false">MAKING SCHOOLS SMART</a>
+                         </li>
+                      </ul>
+                                   
+
+                       <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade active in" role="tabpanel" id="home" aria-labelledby="home-tab">
+                                <p>United We Reach has left no stones unturned in its quest to make sure our children get the education they deserve and it’s for that reason that we are working with some of the most accomplished educationalists from around the globe. The end-result? A world-class curriculum! </p>
+                                 <!--tab 1 starts-->  
+                                <div class="proj-slide-img">
+                                	<div class="img-bx">
+                                		<img src="images/slide-one.jpg" alt="slide-one" class="img-responsive">
+                                    </div>
+                                    <div class="txt-box-slide text-left !important" id="1">
+                                    	<h2><span class="bottom-line">ENHANCING </span> SYLLABUS</h2>
+                                        <p>We start with the Punjab Textbook Board’s (PTB) curriculum and enhance it. Our master teachers - each an expert in their own field - close the gap in national and international quality of education by building on the existing syllabus. </p>
+                                    </div>
+                                    
+                                     <div class="txt-box-slide" id="2" >
+                                    	<h2><span class="bottom-line">SCRIPTED </span> LESSON-PLANS</h2>
+                                        <p>Learning objectives are identified for each chapter using scope & sequence documents which assist in developing structured, scripted lesson-plans to ensure coverage of all necessary topics in a logical order and achieve the international learning outcomes.</p>
+<p>By writing detailed scripted lesson-plans, our master teachers orchestrate classes in a manner that makes optimal use of the students’ attention span and keep them engaged with regular in-class activities. The idea behind the whole exercise is to make sure that the time spent in class is productive and students are involved in their own learning process. </p>
+<p>Scripted lesson-plans are also important for training local teachers. There is a world of difference between the quality of education offered in different schools. The difference becomes more pronounced due to the varying aptitudes of the teaching staff. Through scripted lesson-plans we equalize the teachers’ ability to teach, bringing them on par with the best teachers in the world and maximize further learning opportunities for both students and faculty.</p>
+                                    </div>
+                                    
+                                     <div class="txt-box-slide" id="3" >
+                                    	<h2><span class="bottom-line">MAKING IT </span> RELEVANT TO PAKISTAN</h2>
+                                       <p>While we want to learn from the world, we want to do it in a manner that creates affinity between national and international syllabus and keeps it relevant to Pakistan. We do that with the assistance of renowned professors from local universities who check the content for local relevance and sensitivity while keeping the original learning elements intact. The content is finally reviewed at the UWR headquarters and approved after due diligence. This guarantees that the curriculum is thoroughly scrutinized at every step of the way by experienced and capable individuals, and that the final decisions are made locally.</p>
+<p>This way, we ensure that the curriculum remains our own and addresses real issues of the current education system that is webbed in complex problems. English is one of the most widely spoken and understood languages in the world. It is also the medium of instruction at all leading institutions of the country. Because of its wider application and utility, we too have chosen it as the primary language of instruction for all subjects because we essentially focus on creating globally competitive individuals. Urdu and Islamiyat are done exclusively in Urdu by local curriculum designers.</p>
+
+                                    </div>
+                                </div>
+                                <div class="btn-slides">
+                                	<button id="btn1" class="btn-under-slide">ENHANCING SYLLABUS  </button>
+                                    <button id="btn2" class="btn-under-slide">SCRIPTED LESSON-PLANS</button>
+                                     <button id="btn3" class="btn-under-slide">MAKING IT RELEVANT TO PAKISTAN</button>
+                                   <!-- <a href="" class="btn-under-slide">Designing Lesson-plans & Publishing Books</a>-->
+                                    <!--<a href="" class="btn-under-slide">Review Committee</a>-->
+                                
+                                </div>
+                             	<script>
+							 $(function(){		
+							 $("#btn1").addClass('btn-under-slide-active');	
+							 $("#btn4").addClass('btn-under-slide-active');	
+							 $("#btn7").addClass('btn-under-slide-active');						
+										$("#1").show();
+										$("#2").hide();
+										$("#3").hide();
+										
+								 $("#1").animate({left: '30px'},800);
+								
+								 });
+								 $("#home-tab").click(function(){
+									 $("#btn2").removeClass('btn-under-slide-active');
+									 $("#btn3").removeClass('btn-under-slide-active');
+									 $("#btn1").addClass('btn-under-slide-active');
+									 $("#1").animate({left: '600px'},0);
+									 $("#1").show();
+									 $("#2").hide();
+									 $("#3").hide();
+									 $("#1").animate({left: '30px'},800);
+									 });
+								 $("#btn1").click(function(){
+									 $("#btn2").removeClass('btn-under-slide-active');
+									 $("#btn3").removeClass('btn-under-slide-active');
+									 $("#btn1").addClass('btn-under-slide-active');
+									 
+									 $("#1").animate({left: '600px'},0);
+									 	$("#1").show();
+										$("#2").hide();
+										$("#3").hide();
+									
+									$("#1").animate({left: '30px'},800);
+									
+									 });
+								 
+								 $("#btn2").click(function(){
+									 $("#btn1").removeClass('btn-under-slide-active');
+									 $("#btn3").removeClass('btn-under-slide-active');
+									 $("#btn2").addClass('btn-under-slide-active');
+						 $("#2").animate({left: '800px'},0);
+									 	$("#2").show();
+										$("#1").hide();
+										$("#3").hide();
+									
+									$("#2").animate({left: '30px'},800);
+								  });
+								 $("#btn3").click(function(){
+									 $("#btn2").removeClass('btn-under-slide-active');
+									 $("#btn1").removeClass('btn-under-slide-active');
+									 $("#btn3").addClass('btn-under-slide-active');
+								 $("#3").animate({left: '600px'},0);
+									 	$("#3").show();
+										$("#2").hide();
+										$("#1").hide();
+									
+									$("#3").animate({left: '30px'},800);
+								  });
+								
+								 
+								 
+								 $("#profile-tab").click(function(){
+									$("#btn5").removeClass('btn-under-slide-active');
+									 $("#btn6").removeClass('btn-under-slide-active');
+									 $("#btn4").addClass('btn-under-slide-active');	
+									 $("#4").animate({left: '600px'},0);
+									 $("#4").show();
+									 $("#5").hide();
+									 $("#6").hide();
+									 $("#4").animate({left: '30px'},800);
+									 });
+								 $(function(){
+								  $("#btn4").click(function(){
+									  $("#btn5").removeClass('btn-under-slide-active');
+									 $("#btn6").removeClass('btn-under-slide-active');
+									 $("#btn4").addClass('btn-under-slide-active');
+
+									 $("#4").animate({left: '600px'},0);
+									 $("#4").show();
+									 $("#5").hide();
+									 $("#6").hide();
+									 $("#4").animate({left: '30px'},800);
+									
+									 });
+									
+								 
+								 $("#btn5").click(function(){
+									  $("#btn4").removeClass('btn-under-slide-active');
+									 $("#btn6").removeClass('btn-under-slide-active');
+									 $("#btn5").addClass('btn-under-slide-active');
+									 
+						 				$("#5").animate({left: '600px'},0);
+									 	$("#5").show();
+										$("#4").hide();
+										$("#6").hide();
+										$("#5").animate({left: '30px'},800);
+										
+								  });
+								 $("#btn6").click(function(){
+									  $("#btn5").removeClass('btn-under-slide-active');
+									 $("#btn4").removeClass('btn-under-slide-active');
+									 $("#btn6").addClass('btn-under-slide-active');
+									 
+								 		$("#6").animate({left: '600px'},0);
+									 	$("#6").show();
+										$("#5").hide();
+										$("#4").hide();
+										$("#6").animate({left: '30px'},800);
+										
+								  });
+								
+								   });
+								 $("#about-tab").click(function(){
+									  $("#btn8").removeClass('btn-under-slide-active');
+									 $("#btn9").removeClass('btn-under-slide-active');
+									 $("#btn7").addClass('btn-under-slide-active');
+									 $("#7").animate({left: '600px'},0);
+									 $("#7").show();
+									 $("#8").hide();
+									 $("#9").hide();
+									 $("#7").animate({left: '30px'},800);
+									 
+									 });
+									  $(function(){
+								  $("#btn7").click(function(){
+									   $("#btn8").removeClass('btn-under-slide-active');
+									 $("#btn9").removeClass('btn-under-slide-active');
+									 $("#btn7").addClass('btn-under-slide-active');
+
+									 $("#7").animate({left: '600px'},0);
+									 $("#7").show();
+									 $("#8").hide();
+									 $("#9").hide();
+									 $("#7").animate({left: '30px'},800);
+									
+									 });
+									
+								 
+								 $("#btn8").click(function(){
+									  $("#btn7").removeClass('btn-under-slide-active');
+									 $("#btn9").removeClass('btn-under-slide-active');
+									 $("#btn8").addClass('btn-under-slide-active');
+						 	$("#8").animate({left: '800px'},0);
+									 	$("#8").show();
+										$("#7").hide();
+										$("#9").hide();
+									
+									$("#8").animate({left: '30px'},800);
+								  });
+								 $("#btn9").click(function(){
+									  $("#btn8").removeClass('btn-under-slide-active');
+									 $("#btn7").removeClass('btn-under-slide-active');
+									 $("#btn9").addClass('btn-under-slide-active');
+								 $("#9").animate({left: '600px'},0);
+									 	$("#9").show();
+										$("#8").hide();
+										$("#7").hide();
+									
+									$("#9").animate({left: '30px'},800);
+								  });
+								
+								   });
+							 </script>      
+                              	<!--tab 1 ends-->  
+                             </div>
+                                   <!--tab 2 starts-->    
+                             <div class="tab-pane fade" role="tabpanel" id="profile" aria-labelledby="profile-tab">
+                               <p>UWR is revolutionizing the education system through its proprietary technology Learning Enhancement, Analysis & Feedback (LEAF). It's a highly advanced, intelligent, low-cost, auditable, scalable and sustainable system that is built to hold system accountable & implement best teaching practices to optimize learning outcomes.</p>
+                                
+                                <div class="proj-slide-img">
+                                	<div class="img-bx">
+                                		<img src="images/slide-two.jpg" alt="slide-one" class="img-responsive">
+                                    </div>
+                                    <div class="txt-box-slide" id="4">
+                                    	<h2><span class="bottom-line">TABLET </span> BASED TEACHING</h2>
+                                        <p>The process of learning never stops and we see no reason why it shouldn’t continue for teachers. Improving educational attainment for all students can only happen if we improve the quality of teaching.</p>
+<p>UWR believes in scripted lesson-plan based teaching through tablets. Every teacher working at schools under the UWR umbrella is given a tablet. These tablets come with an in-built Learning Enhancement, Analysis & Feedback or LEAF system. LEAF is the backbone of the entire UWR teaching model and works like a teachers’ assistant – allowing them to take attendance in a matter of seconds, keep track of a child’s health & grades, and most importantly teach like the best teachers in the world and constantly improve.</p>
+<p>Teaching through tablets is advantageous on multiple levels. Firstly, by providing us with real-time information, it eliminates the problem of ghost schools and teachers. On the teacher level, every time they teach via tablets, they allow us to identify areas where they can improve and be better every single day. It’s a process of learning through teaching that stems from our objective to help them teach like the master teachers.</p>
+<p>Tablets also create the ease of rolling out updated curriculum and scripted lesson-plans in a timely fashion. </p>
+
+
+                                    </div>
+                                         <div class="txt-box-slide" id="5">
+                                    	<h2><span class="bottom-line">DIGITAL </span> ASSESSMENT SYSTEM</h2>
+                                       <p>We believe in regular assessments and timely intervention. Our philosophy is that constant feedback is the most critical ingredient in ensuring that all students are able to reach their full potential. This can only be made possible through regular assessment exercises. The goal is to make sure no child is not able to be their personal best by assisting them to constantly improve and be better prepared to learn more in future lessons.</p>
+<p>UWR digitalizes the assessment-taking process through digital lab which is equipped with the Digital Lab Management System (DLMS). It’s an intelligent system that makes sure no two children are given the same test by automatically reshuffling the order of questions and answers. It records scores as well as the response-time of students giving us an accurate measure of a child’s intelligence level.</p>
+<p>It’s a smart system that is designed to accurately assess where children stand in their pursuit of knowledge, identify their weak areas and instantaneously offer remedial material for academic improvement.  If, as an example, a child does not have a good grasp on certain concepts of mathematics, the system instantly engages them through an interesting game designed to improve those math skills.</p>
+                                    </div>
+                                         <div class="txt-box-slide" id="6">
+                                    	<h2><span class="bottom-line">PERSONALIZED </span> LEARNING</h2>
+                                        <p>It’s humanly impossible for a teacher to focus on each and every student individually but our system doesn’t have such limitations. It’s a trailblazing technology that allows us to carefully nurture every single student by giving them individual attention. Think of it as a watchful parent or a dedicated mentor that wants every child to progress every day.</p>
+<p>This is the human side of LEAF that acts as a private tutor and offers personalized, tailor-made learning material as per an individual’s needs. If a child is struggling in science, it amplifies its focus on science lessons, if a child is not performing well in English, it offers them interesting reading material and exercises to improve.</p>
+<p>We envision classes where no child is left behind and with LEAF we make sure that every child reaches their full potential and be the best they can be.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="btn-slides">
+                                	
+                                    <button id="btn4" class="btn-under-slide">TABLET BASED TEACHING</button>
+                                    <button id="btn5" class="btn-under-slide">DIGITAL ASSESSMENT SYSTEM</button>
+                                     <button id="btn6" class="btn-under-slide">PERSONALIZED LEARNING</button>
+                                
+                                </div>
+                             </div> 
+                                   <!--tab 2 ends-->                                 
+                             <!--tab 3 starts-->
+                             <div class="tab-pane fade" role="tabpanel" id="about" aria-labelledby="dropdown1-tab"> 
+                                   <p>The technology is brought to life with the support of our partner schools. The success of the entire program hinges heavily upon this indispensable partnership which adds to our program’s sustainability and scalability.</p>
+                                <!--tab 3 starts--> 
+                                <div class="proj-slide-img">
+                                	<div class="img-bx">
+                                		<img src="images/slide-three.jpg" alt="slide-one" class="img-responsive">
+                                    </div>
+                                    <div class="txt-box-slide" id="7">
+                                    	<h2><span class="bottom-line">BRINGING </span> SCHOOLS ONLINE</h2>
+                                        <p>We invest our energies in projects that are scalable, sustainable and high-impact. Therefore, instead of building new institutions, we partner with existing schools and prepare them for a technological revolution.</p>
+<p>Chosen schools are equipped with servers and Wi-Fi networks. A Wi-Fi connection brings the whole system to life, connecting teachers’ tablets as well as the digital labs to the server. Internet connects the server to our data centre, giving us direct access to everything going on in the school.</p>
+<p>This opens a two-way communication gateway that is also imperative for the seamless collection of invaluable data for our data analytics which form the very heart of our technology. All of this is done without putting any extra burden on the teachers.</p>
+<p>UWR’s aim is to use the science of big data to create a feedback loop that will meaningfully improve teaching and learning, and help teachers enhance the effectiveness of instruction. It’s a revolutionary technology that is not available anywhere in the world.</p>
+                                    </div>
+                                     <div class="txt-box-slide" id="8">
+                                    	<h2><span class="bottom-line">INFRASTRUCTURAL </span> IMPROVEMENT</h2>
+                                        <p>To bring concepts & theories to life and instill creativity in learners, UWR is investing heavily in building the following facilities. We firmly believe that this program will go a long way in instilling creativity, critical thinking and entrepreneurial spirit as well as in giving birth to a culture of innovation and invention. </p>
+<p><strong>Science labs:</strong> To allow the students to experience hands-on application of the concepts studied in textbook, UWR is building well-equipped science labs in its partner schools. We foresee these science labs as factories churning out next generation of scientists and engineers.</p>
+<p><strong>Art rooms:</strong> Creativity is the first step to invention and innovation. We aim to produce entrepreneurs who have the ability to offer creative solutions to the world. Our art rooms provide a space for that. Children from an early age are encouraged to manipulate their creativity constructively. Promoting this spirit within students is an integral part of their confidence building and the boosting of their creative abilities.</p>
+<p><strong>Digital labs:</strong> The digital labs are equipped with the DLMS. The students take assessments regularly so that the system can analyze and monitor their learning progress. These scores are recorded in the system which then designs customized learning schedule for the student. It helps in analyzing where the students stand in their academic capabilities in comparison to the international learning outcomes.
+ </p>
+                                    </div>
+                                     <div class="txt-box-slide" id="9">
+                                    	<h2><span class="bottom-line">TEACHERS’ </span> TRAINING</h2>
+                                        <p>In order to help bring the teachers at our partner schools up to the adequate level, UWR employs a team of professional trainers who are assigned the important responsibility of coaching the teaching staff in three main modules:</p>
+<ul class="slide-list">
+<li>Spoken English training </li>
+<li>Technology training</li>
+<li>Pedagogy training</li>
+</ul>
+<p>English is the primary language of instruction for a majority of the subjects so a good grasp of the language is therefore necessary for success in all academic pursuits. Teachers undergo rigorous training exercises which make a world of difference in the teachers’ language skills and their ability to deliver lessons using UWR’s technology.</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="btn-slides">
+                                	<button id="btn7" class="btn-under-slide">BRINGING SCHOOLS ONLINE</button>
+                                    <button id="btn8" class="btn-under-slide">INFRASTRUCTURAL IMPROVEMENT</button>
+                                    <button id="btn9" class="btn-under-slide">TEACHERS’ TRAINING</button>
+                                
+                                </div>
+                                  <!--tab3 ends--> 
+                              </div>
+							<!--tab 3 ends-->  
+                         </div>
+               </div>
+                
+                
+                
+                <!--slider End-->
+                
+                
+                
+                
+                
+              
+                         
+                        
+                         
+
+                          	  
+                            
+                   
+            </div>
+        </div>
+    <!--body-section End-->
+
+
+
+
+
+
+    
+    
+    
+      <!--Subscription section start-->
+      <div class="subs-holder">
+    <div class="container">
+          <div class="row subscribe">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <h2>subscribe now</h2>
+              <p>Get the latest updates on our work delivered to your inbox.</p>
+            </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control" placeholder="Enter your email">
+              <button type="button" class="btn-readmore">Submit</button>
+            </div>
+      </div>
+        </div>
+  </div>
+      <!--Subscription section end--> 
+      <!--Footer bottom-->
+      <div class="footer">
+    <div class="container">
+          <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+              <ul class="list_two">
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="about-us.html">About Us</a> </li>
+<li> <a href="educational-reform.html">Our Projects</a> </li>
+          </ul>
+            </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+              <ul class="list_two">
+            <li> <a href="news&stories.html">News & Stories</a> </li>
+            <li> <a href="get-involved.html">Get Involved</a> </li>
+            <li> <a href="contact-us.html">Contact Us</a> </li>
+          </ul>
+            </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <ul class="address list_two">
+            <li><i class="fa fa-phone"> </i> +92 42 3581 7469</li>
+            <li> <i class="fa fa-envelope"> </i> <a href="">info@unitedwereach.org</a> </li>
+            <li> <i class="fa fa-map-marker"> </i>
+                  <address>
+              12th Floor, MM Tower, MM Alam Road, Lahore.
+              </address>
+                </li>
+          </ul>
+            </div>
+      </div>
+        </div>
+  </div>
+      <div class="footer-bottomtwo">
+    <div class="container">
+          <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 copyright">
+              <p>Copyright © 2016 UnitedWeReach. All rights reserved.</p>
+            </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="social-list">
+            <ul>
+                  <li> Follow Us: </li>
+                  <li> <a href="https://www.facebook.com/unitedwereach‎" target="_blank">
+                    <div class="fb"></div>
+                    </a> </li>
+                  <li> <a href="https://twitter.com/unitedwereach"   target="_blank">
+                    <div class="tw"></div>
+                    </a> </li>
+                 <!-- <li> <a href="https://www.plus.google.com/"  target="_blank">
+                    <div class="gplus"></div>
+                    </a> </li>-->
+                  <li> <a href="https://www.instagram.com/unitedwereach/"  target="_blank">
+                    <div class="insta"></div>
+                    </a> </li>
+                </ul>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+      <!--Footer bottom end--> 
+      
+    </div>
+<a href="#scroll-to-top" class="scrollup" ></a> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<!--<script src="js/jquery.min.js"></script>--> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/arrow24.js"></script> 
+<script src="js/wow.js"></script> 
+<script>
+              new WOW().init();
+              </script>
+              
+              <!--<script src="js/main.js"></script>-->
+</body>
+</html>

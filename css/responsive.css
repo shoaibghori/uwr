@@ -1,0 +1,759 @@
+
+/*Mobile responsive css */
+
+@media only screen and (min-width:300px) and (max-width:480px) {
+.header-holder {
+	background: #060606 url("../images/bg_01.jpg") no-repeat scroll 50% 0;
+	margin-bottom: 70px;
+}
+.main-menu {
+	background: transparent;
+	margin-top: -60px;
+	z-index: 2;
+}
+.slider-txtbox {
+	padding: 100px 0 0px;
+}
+.main-text {
+	width: 100%;
+}
+.icon-box-header .iconbox {
+	width: 100%;
+}
+.bg-transform {
+	margin-bottom: 0;
+	padding: 50px 15px;
+}
+.bg-transform h2 {
+	line-height: 39px;
+	margin: 0 0 10px;
+}
+.btn-readmore {
+	margin-bottom: 30px;
+}
+.step-box {
+	height: auto;
+	margin-bottom: 20px;
+}
+.stepbox-two-holder {
+	margin: 50px 0;
+}
+.stepbox-two-holder .steptext_box {
+	width: 100%;
+}
+.step-holder {
+	padding: 50px 0 30px;
+	width: 100%;
+	overflow: visible;
+}
+.step_two_text h2 {
+	line-height: 35px;
+	margin: 0;
+}
+.news-heading h2 {
+	margin-left: 0;
+}
+.news01 {
+	margin: 0px 0 25px;
+}
+.news02 .news02_img {
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+.news03 .news03_img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.news03_desc {
+	padding: 18px 15px;
+}
+.parallax_bg03 {
+	padding: 0 0 40px;
+}
+.img-imapct-box {
+	margin-bottom: 20px;
+}
+.gallery-bottom {
+	margin-bottom: 30px;
+	padding: 0 15px;
+}
+.gallery-bottom .fancybox {
+	display: block;/*	margin-bottom: 10px;*/
+}
+.gallery-item .overlay-text {
+	left: 35%;
+	top: 30%;
+}
+.subscribe {
+	padding: 0 15px;
+}
+.subscribe input {
+	margin: 0 0 15px;
+	width: 100%;
+}
+.subs-holder {
+	background: #3b3b3b none repeat scroll 0 0;
+}
+.footer .list_two {
+	padding: 0 15px;
+}
+.copyright {
+	padding: 0 15px;
+}
+.social-list {
+	padding: 0 15px;
+}
+.footer-bottomtwo .social-list ul li {
+	padding: 15px 5px;
+}
+
+	/*contactus css start*/
+	.header-sub {
+		margin-bottom: 30px;
+	}
+	.info-holder {
+	  padding: 10px 15px;
+	}
+	.contact-info h2 {
+	  line-height: 40px;
+	  margin-bottom: 10px;
+	}
+	.contact-info p {
+	  margin-bottom: 30px;
+	}
+	/*contactus css End*/
+	
+	/*About us css*/
+	.abouts-img img{
+	margin-top:25px;
+	
+}
+.board h2{
+		padding-left: 0;
+	
+}
+	.goal-box {
+	  margin-bottom: 50px;
+	  height:auto
+	}
+	.goal-holder {
+	  padding: 50px 0 0;
+	  width:100%;
+	}
+	.goalbox-two-holder .goaltext_box {
+	  margin-bottom: 20px;
+	}
+	.about-content p + p {
+	  text-align: justify;
+	}
+	/*About us css end*/
+	
+	/*news and stories start*/
+	.single-post .img-box-post {
+	  height: 223px;
+	  padding: 25px 15px;
+	  margin:0;
+	}
+	.single-post .post-desc {
+	  padding: 10px 15px;
+	}
+	.img-short-box {
+	  margin: 0 20px 20px 0;
+	   width: 100%;
+	}
+	.short-post {
+	  padding: 25px;
+	}
+	.load-more-post{
+		text-align:center;
+	}
+	.gallery-post{
+	  margin-bottom: 30px;
+	  overflow: hidden;
+	  padding: 0 15px;
+	}
+	.gallery-post-item .overlay-text {
+	  left: 40%;
+	  position: absolute;
+	  top: 40%;
+	}
+	/*news and stories end*/
+	
+	/*get involve css*/
+	.get-inv {
+    	padding: 0 15px 40px;
+	}
+	.get-inv p{
+    	text-align:justify;
+	}
+	.get-heading h2 {
+	  margin-left: 0px;
+	}
+	.parallax_gi {
+	  padding: 40px 0 10px;
+	  margin-bottom: 2px;
+	}
+	/*get involve css*/
+	
+	.get-txt p {
+    padding: 0;
+}
+.head_title{
+	margin: 30px 0 0;
+}
+.inv-box {
+    padding: 15px 26px 40px;
+}
+.project p{
+	text-align:justify;
+	
+}
+.project h2 {
+  line-height: 40px;
+  padding: 0;
+}
+.project-holder {
+  margin-bottom: 138px;
+  padding: 30px 15px 50px;
+}
+.ints {
+   width: 100%;
+}
+.img-txtbox {
+  left: 0;
+  top: 3px;
+}
+.proj-p h1 {
+	 line-height: 64px;
+	  margin: 200px 0 0;
+	}
+	
+.modal-donate{
+overflow:scroll;
+}
+.modal-donate .ul-detail li{
+	padding: 6px 0;
+}
+.get-inv h2{
+	line-height: 40px;
+}
+.project h2{
+	padding:0 15px;
+}
+.project-holder-training {
+	padding:30px 15px;
+}
+}
+
+@media only screen and (min-width:481px) and (max-width:767px) {
+.header-holder {
+	background: #060606 url("../images/bg_01.jpg") no-repeat scroll 50% 0;
+	margin-bottom: 70px;
+}
+.main-menu {
+	background: transparent;
+	margin-top: -60px;
+	z-index: 2;
+}
+.slider-txtbox {
+	padding: 100px 0 0px;
+}
+.main-text {
+	width: 100%;
+}
+.icon-box-header .iconbox {
+	width: 100%;
+}
+.bg-transform {
+	margin-bottom: 0;
+	padding: 50px 15px;
+}
+.bg-transform h2 {
+	line-height: 39px;
+	margin: 0 0 10px;
+}
+.btn-readmore {
+	margin-bottom: 30px;
+}
+.step-box {
+	height: auto;
+	margin-bottom: 20px;
+}
+.stepbox-two-holder {
+	margin: 50px 0;
+}
+.stepbox-two-holder .steptext_box {
+	width: 100%;
+}
+.step-holder {
+	padding: 50px 0 0;
+	width: 100%;
+	overflow: visible;
+}
+.step_two_text h2 {
+	line-height: 35px;
+	margin: 0;
+}
+.news-heading h2 {
+	margin-left: 0;
+}
+.news01 {
+	margin: 0px 0 25px;
+}
+.news02 .news02_img {
+	width: auto;
+	margin: 0 20px 20px 0;
+}
+.img-imapct-box {
+	margin-bottom: 15px;
+	padding: 15% 22%;
+}
+.imapact-heading h2 {
+	margin-left: 0;
+}
+.gallery-bottom {
+	margin: 0 auto;
+	width: 100%;
+}
+.gallery-bottom .fancybox {
+	display: block;
+}
+.subscribe {
+	padding: 0 15px;
+}
+.subscribe input {
+	margin: 0 15px 0 0;
+	width: 65%;
+}
+.subs-holder {
+	background: #000 url("../images/footer-bg.jpg") repeat scroll 50% 0;
+	padding: 30px 0 0;
+}
+.footer .list_two {
+	padding: 0 15px;
+}
+.copyright {
+	padding: 0 15px;
+}
+.social-list {
+	padding: 0 15px;
+}
+.footer-bottomtwo .social-list ul li {
+	padding: 15px 5px;
+}
+
+	/*contactus css start*/
+	.header-sub {
+		margin-bottom: 30px;
+	}
+	.info-holder {
+	  padding: 10px 15px;
+	}
+	.contact-info h2 {
+	  line-height: 40px;
+	  margin-bottom: 10px;
+	}
+	.contact-info p {
+	  margin-bottom: 30px;
+	}
+	.contactlsit .add-info::before{
+		bottom:25px;	
+	}
+	/*contactus css End*/
+		/*About us css*/
+	.goal-box {
+	  margin-bottom: 50px;
+	  height:auto
+	}
+	.goal-holder {
+	  padding: 50px 0 0;
+	  width:100%;
+	}
+	.goalbox-two-holder .goaltext_box {
+	  margin-bottom: 20px;
+	}
+	.about-content {
+	  min-height:430px;
+	}
+	.about-content p + p {
+	  text-align: justify;
+	}
+	.abouts-img img{
+	margin-top:25px;
+	}
+	.step-holder {
+		padding: 50px 0 30px;
+	}
+	/*About us css end*/
+	
+		/*news and stories start*/
+	.single-post .img-box-post {
+	  height: 350px;
+	  padding: 25px 15px;
+	  margin:0;
+	}
+	.single-post .post-desc {
+	  padding: 10px 15px;
+	}
+	.img-short-box {
+	  margin: 0 20px 20px 0;
+	   width: 100%;
+	}
+	.short-post {
+	  padding: 25px;
+	}
+	.load-more-post{
+		text-align:center;
+	}
+	.gallery-post{
+	  margin-bottom: 30px;
+	  overflow: hidden;
+	  padding: 0 15px;
+	}
+	.gallery-post-item .overlay-text {
+	  left: 40%;
+	  position: absolute;
+	  top: 40%;
+	}
+	/*news and stories end*/
+	
+	.img-imapct-invbox {
+	  background: #dab526;
+	}
+		.get-heading h2 {
+	  margin-left:0px;
+	}
+		.get-txt p {
+		padding: 0 15px;
+	}
+	.get-inv {
+	  padding: 30px 15px 40px;
+	}
+	
+	.inv-box {
+    padding: 15px 26px 40px;
+}
+.project p{
+	text-align:justify;
+	
+}
+.project h2 {
+  line-height: 40px;
+  padding: 0;
+}
+.project-holder {
+  margin-bottom: 150px;
+  padding: 30px 15px 130px;
+}
+.ints {
+   width: 100%;
+}
+.img-txtbox {
+  left: 2%;
+  top: 50px;
+}
+	.navbar-nav > li > .dropdown-menu{
+		background-color:#000;
+	}
+	.proj-p h1 {
+	 line-height: 64px;
+	  margin: 200px 0 0;
+	}
+
+.project h2{
+	padding:0 15px;
+}
+.project-holder-training {
+	padding:30px 15px;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+.main-menu .nav li a {
+	font-size: 12px;
+	padding: 12px 6px;
+}
+.main-text {
+	width: 100%;
+}
+.bg-transform {
+	padding: 50px 15px;
+}
+.bg-transform h2 {
+	line-height: 39px;
+	margin: 0 0 10px;
+}
+.header-holder {
+	margin-bottom: 60px;
+}
+.step-box {
+	height: auto;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+.steptext_box ul li {
+	padding: 5px 0;
+}
+.stepbox-two-holder .steptext_box {
+	min-height: 370px;
+	padding: 40px 30px 30px;
+}
+.step-holder {
+	padding: 50px 0 0;
+	width: 100%;
+	overflow: visible;
+}
+.step_two_text h2 {
+	line-height: 35px;
+	margin: 0;
+}
+.news-heading h2 {
+	margin-left: 0;
+}
+.news01 {
+	margin: 0px 0 25px;
+}
+.news03 {
+	padding: 0 15px 0 0;
+}
+.news03 .news03_img {
+	margin: 0 20px 0 0;
+}
+.news03_desc {
+	padding: 18px 20px 18px 0;
+}
+.img-imapct-box {
+	min-height: 222px;
+	padding: 15% 10%;
+}
+.imapact-heading h2 {
+	margin-left: 0;
+}
+.subs-holder {
+	padding: 32px 0;
+}
+.footer .list_two {
+	padding: 0;
+}
+.copyright {
+	padding: 0;
+}
+.social-list {
+	padding: 0;
+}
+.footer-bottomtwo .social-list ul li {
+	padding: 15px 2px;
+}
+
+		/*contactus css start*/
+	.header-sub {
+		/*margin-bottom: 30px;*/
+	}
+	.info-holder {
+	  padding: 10px 15px;
+	}
+	.contact-info h2 {
+	  line-height: 40px;
+	  margin-bottom: 10px;
+	}
+	.contact-info p {
+	  margin-bottom: 30px;
+	}
+	.contactlsit .add-info::before{
+		bottom:45px;	
+	}
+	/*contactus css End*/
+	/*About us css*/
+	.goal-box {
+	  margin-bottom: 50px;
+	  height:auto
+	}
+	.goal-holder {
+	  padding: 50px 0 0;
+	  width:100%;
+	}
+	.goalbox-two-holder .goaltext_box {
+	  margin-bottom: 20px;
+	}
+	.about-content {
+  min-height: 752px;
+}
+	.about-content p + p {
+	  text-align: justify;
+	}
+	.goalbox-two-holder .goaltext_box {
+	  background: #181818 none repeat scroll 0 0;
+	  min-height: 232px;
+	  padding: 30px 15px;
+	}
+	/*About us css end*/
+	
+	/*news and archive css start*/
+	
+		.news-archive h2 {
+		  font-size: 16px;
+		}
+		.single-post .post-desc {
+		  padding: 10px 30px 25px;
+		}
+		.short-post {
+		  padding: 25px 35px 25px 25px;
+		}
+	/*news and archive css end*/
+
+	.get-heading h2 {
+	  margin-left:0px;
+	}
+	.img-imapct-invbox .img-holder {
+		padding: 0 20px;
+	}
+	
+	.project p{
+	text-align:justify;
+	
+}
+.project h2 {
+  line-height: 40px;
+  padding: 0;
+}
+.project-holder {
+  margin-bottom: 150px;
+  padding: 30px 15px 130px;
+}
+.ints {
+   width: 100%;
+}
+.img-txtbox {
+  left: 6%;
+  top: 80px;
+}
+
+	
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px) {
+.main-menu .nav li a {
+	font-size: 14px;
+	padding: 12px 15px;
+}
+.step-holder {
+	padding: 50px 0 0;
+	width: 100%;
+	overflow: visible;
+}
+.step-box {
+	height: auto;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+.steptext_box ul li {
+	padding: 5px 0;
+}
+.stepbox-two-holder .steptext_box {
+	min-height: 316px;
+	padding: 40px 30px 30px;
+}
+.img-imapct-box .img-holder {
+	padding: 0 0 0 5px;
+}
+.img-imapct-box .impact-txt {
+	padding: 0 0 0 5px;
+}
+.gallery-bottom .fancybox {
+	display: block;
+}
+.subscribe {
+	padding: 0 15px;
+}
+.footer .list_two {
+	padding: 0 0 0 15px;
+}
+.copyright {
+	padding: 0 0 0 15px;
+}
+.social-list {
+	padding: 0 0 0 15px;
+}
+.footer-bottomtwo .social-list ul li {
+	padding: 15px 6px;
+}
+
+	/*About us css*/
+	.goal-box {
+	  margin-bottom: 50px;
+	  height:auto
+	}
+	.goal-holder {
+	  padding: 50px 0 0;
+	  width:100%;
+	}
+	.goalbox-two-holder .goaltext_box {
+	  margin-bottom: 20px;
+	}
+	.about-content {
+  min-height: 575px;
+}
+	.about-content p + p {
+	  text-align: justify;
+	}
+	.goalbox-two-holder .goaltext_box {
+	  background: #181818 none repeat scroll 0 0;
+	  min-height: 232px;
+	  padding: 30px 15px;
+	}
+	/*About us css end*/
+		.img-imapct-invbox .img-holder {
+		padding: 0 20px;
+	}
+	
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+.main-menu .nav li a {
+	padding: 12px 15px;
+}
+.step-holder {
+	padding: 50px 0 0;
+	width: 100%;
+	overflow: visible;
+}
+.step-box {
+	height: auto;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+.steptext_box ul li {
+	padding: 5px 0;
+}
+.stepbox-two-holder .steptext_box {
+	min-height: 316px;
+	padding: 40px 30px 30px;
+}
+.img-imapct-box {
+	min-height: 222px;
+}
+.img-imapct-box .img-holder {
+	padding: 0 0 0 5px;
+}
+.img-imapct-box .impact-txt {
+	padding: 0 0 0 5px;
+}
+.subscribe {
+	padding: 0 15px;
+}
+.footer .list_two {
+	padding: 0 0 0 15px;
+}
+.copyright {
+	padding: 0 0 0 15px;
+}
+.social-list {
+	padding: 0 0 0 15px;
+}
+.footer-bottomtwo .social-list ul li {
+	padding: 15px 6px;
+}
+		.img-imapct-invbox .img-holder {
+		padding: 0 20px;
+	}
+}
